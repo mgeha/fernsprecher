@@ -1,0 +1,187 @@
+/* German translations. Keys are the English texts in the source code.
+   Interpolated values: %@ text, %lld integer; %1$@, %2$@ … to reorder. */
+
+/* Menu */
+"Connecting to the PBX …" = "Verbinde mit der Anlage …";
+"Fernsprecher is not set up yet." = "Fernsprecher ist noch nicht eingerichtet.";
+"Set up …" = "Einrichten …";
+"Extension or PIN was rejected." = "Nebenstelle oder PIN wurde abgelehnt.";
+"Settings …" = "Einstellungen …";
+"Session lost – possibly taken over by another program on this extension." = "Sitzung verloren – möglicherweise von einem anderen Programm auf dieser Nebenstelle übernommen.";
+"Reconnect" = "Wieder verbinden";
+"%@\nFernsprecher is not connected." = "%@\nFernsprecher ist nicht verbunden.";
+"No connection to the PBX.\n%@" = "Keine Verbindung zur Anlage.\n%@";
+"Try again" = "Erneut versuchen";
+"Name or number" = "Name oder Nummer";
+"Calls" = "Anrufe";
+"Phone book" = "Telefonbuch";
+"Connected live" = "Live verbunden";
+"Polling every 30 s only – live connection is being set up" = "Nur Abfrage alle 30 s – Live-Verbindung wird aufgebaut";
+"About Fernsprecher" = "Über Fernsprecher";
+"Quit" = "Beenden";
+"Client for Alcatel-Lucent OmniPCX Office.\n\nNot a product of Alcatel-Lucent Enterprise. OmniPCX, OXO and PIMphony are trademarks of ALE." = "Client für Alcatel-Lucent OmniPCX Office.\n\nKein Produkt von Alcatel-Lucent Enterprise. OmniPCX, OXO und PIMphony sind Marken von ALE.";
+
+/* Active call */
+"Unknown" = "Unbekannt";
+"Copy number" = "Nummer kopieren";
+"Answer" = "Annehmen";
+"Hang up" = "Auflegen";
+"Ringing" = "Klingelt";
+"Dialling" = "Wählt";
+"Calling" = "Ruft an";
+"Connected" = "Verbunden";
+"On hold" = "Gehalten";
+"Conference" = "Konferenz";
+"Recording" = "Wird aufgezeichnet";
+"Waiting" = "Wartet";
+"Ending" = "Wird beendet";
+"via %@" = "über %@";
+"for %@" = "für %@";
+"forwarded" = "umgeleitet";
+
+/* Call popup */
+"Incoming call" = "Eingehender Anruf";
+"Ignore" = "Ignorieren";
+
+/* Call log */
+"No calls" = "Keine Anrufe";
+"No matches" = "Keine Treffer";
+"Load older (%lld of %lld)" = "Ältere laden (%lld von %lld)";
+"Missed" = "Verpasst";
+"Not reached" = "Nicht erreicht";
+"Call back" = "Zurückrufen";
+"missed after %@" = "verpasst nach %@";
+"missed" = "verpasst";
+"not reached" = "nicht erreicht";
+"busy" = "besetzt";
+"voicemail" = "Mailbox";
+"answered elsewhere" = "übernommen";
+"picked up" = "herangeholt";
+"transferred" = "vermittelt";
+"Yesterday %@" = "Gestern %@";
+
+/* Phone book */
+"Phone book empty" = "Telefonbuch leer";
+"Own entries" = "Eigene Einträge";
+"PBX" = "Anlage";
+"Call" = "Anrufen";
+
+/* Name editor */
+"Name for %@" = "Name für %@";
+"Name" = "Name";
+"Save" = "Sichern";
+"Cancel" = "Abbrechen";
+"Save name …" = "Namen speichern …";
+"Rename …" = "Namen ändern …";
+"Remove name" = "Namen entfernen";
+
+/* Forward */
+"Off" = "Aus";
+"Cancel forward" = "Umleitung aufheben";
+"Forward …" = "Umleiten …";
+"Forward all calls immediately" = "Alle Anrufe sofort umleiten";
+"Forward all calls immediately to" = "Alle Anrufe sofort umleiten auf";
+"Number" = "Nummer";
+"Forward" = "Umleiten";
+"Enter external numbers with the trunk prefix %@ in front." = "Externe Nummern mit Amtskennziffer %@ davor eingeben.";
+"No forward" = "Keine Umleitung";
+"Forwarded" = "Umgeleitet";
+"When busy" = "Bei Besetzt";
+"On no answer" = "Bei Nichtmelden";
+"%@ to voicemail" = "%@ auf Sprachbox";
+"%@ to %@ · %@" = "%1$@ auf %2$@ · %3$@";
+"%@ to %@" = "%1$@ auf %2$@";
+
+/* Feedback in the menu footer */
+"Call log not loaded: %@" = "Anrufliste nicht geladen: %@";
+"Older calls not loaded: %@" = "Ältere Anrufe nicht geladen: %@";
+"Missed calls not acknowledged: %@" = "Verpasste Anrufe nicht bestätigt: %@";
+"Forwarding failed: %@" = "Umleiten fehlgeschlagen: %@";
+"Forwarded to %@" = "Umgeleitet auf %@";
+"The PBX did not accept the forward to %@" = "Die Anlage hat die Umleitung auf %@ nicht übernommen";
+"Forward not cancelled: %@" = "Umleitung nicht aufgehoben: %@";
+"Forward cancelled" = "Umleitung aufgehoben";
+"The PBX did not cancel the forward" = "Die Anlage hat die Umleitung nicht aufgehoben";
+"Phone book not loaded: %@" = "Telefonbuch nicht geladen: %@";
+"Address book is locked: file unreadable" = "Adressbuch ist gesperrt: Datei unlesbar";
+"Address book not saved: %@" = "Adressbuch nicht gespeichert: %@";
+"Address book unreadable, moved aside as %@" = "Adressbuch unlesbar, beiseitegelegt als %@";
+"Address book unreadable: %@" = "Adressbuch unlesbar: %@";
+"Answering failed: %@" = "Annehmen fehlgeschlagen: %@";
+"Hanging up failed: %@" = "Auflegen fehlgeschlagen: %@";
+"Dialling %@ …" = "Wähle %@ …";
+"Dialling failed: %@" = "Wählen fehlgeschlagen: %@";
+"%@ copied" = "%@ kopiert";
+
+/* Notifications */
+"Session lost" = "Sitzung verloren";
+"Extension %@ was possibly taken over by another program. Fernsprecher is not connected." = "Nebenstelle %@ wurde möglicherweise von einem anderen Programm übernommen. Fernsprecher ist nicht verbunden.";
+"Login rejected" = "Anmeldung abgelehnt";
+"Extension or PIN was rejected. Fernsprecher is not connected." = "Nebenstelle oder PIN wurde abgelehnt. Fernsprecher ist nicht verbunden.";
+"PBX certificate rejected" = "Zertifikat der Anlage abgelehnt";
+"Fernsprecher is not connected. Details in the settings." = "Fernsprecher ist nicht verbunden. Details in den Einstellungen.";
+"No connection to the PBX" = "Keine Verbindung zur Anlage";
+"Fernsprecher has not been connected for %lld minutes and keeps trying." = "Fernsprecher ist seit %lld Minuten nicht verbunden und versucht es weiter.";
+
+/* Settings: tabs */
+"General" = "Allgemein";
+"Certificate" = "Zertifikat";
+
+/* Settings: connection */
+"Address" = "Adresse";
+"Connecting …" = "Verbinde …";
+"Not set up yet" = "Noch nicht eingerichtet";
+"e.g. 192.168.1.10" = "z. B. 192.168.1.10";
+"Port" = "Port";
+"Extension" = "Nebenstelle";
+"e.g. 51" = "z. B. 51";
+"PIN" = "PIN";
+"unchanged" = "unverändert";
+"The PIN is stored in a file only you can read. Only one session per extension is possible – logging in here ends e.g. PIMphony on the same extension." = "Die PIN wird in einer nur für dich lesbaren Datei gespeichert. Pro Nebenstelle ist nur eine Sitzung möglich – eine Anmeldung hier beendet z. B. PIMphony auf derselben Nebenstelle.";
+"Save and connect" = "Speichern und verbinden";
+"Connected as %@" = "Verbunden als %@";
+"Wrong extension or PIN" = "Nebenstelle oder PIN falsch";
+"Session lost – possibly taken over by another program" = "Sitzung verloren – möglicherweise von anderem Programm übernommen";
+
+/* Settings: calls */
+"Popup for incoming calls" = "Popup bei eingehendem Anruf";
+"Trunk prefix" = "Amtskennziffer";
+"none" = "keine";
+"Put in front of external numbers when dialling from the call log or phone book. Typed numbers are dialled as entered." = "Wird beim Wählen aus Anrufliste und Telefonbuch vor externe Nummern gesetzt. Eingetippte Nummern werden gewählt wie eingegeben.";
+
+/* Settings: certificate */
+"Check" = "Prüfung";
+"Remember fingerprint" = "Fingerabdruck merken";
+"System check" = "Systemprüfung";
+"Accept any" = "Jedes akzeptieren";
+"Remembered" = "Gemerkt";
+"none yet – on the next connect" = "noch keins – beim nächsten Verbinden";
+"Presented" = "Angeboten";
+"Trust this certificate" = "Diesem Zertifikat vertrauen";
+"Forget" = "Vergessen";
+"PBX certificate" = "Zertifikat der Anlage";
+"On the first connect Fernsprecher remembers the PBX certificate and from then on only connects if the PBX presents exactly this one. Suitable for the OXO's self-signed certificate." = "Beim ersten Verbinden merkt sich Fernsprecher das Zertifikat der Anlage und verbindet danach nur noch, wenn sie genau dieses zeigt. Passend für das selbstsignierte Zertifikat der OXO.";
+"The certificate must come from a certificate authority this Mac trusts, e.g. a company CA." = "Das Zertifikat muss von einer Zertifizierungsstelle stammen, der dieser Mac vertraut, z. B. einer Firmen-CA.";
+"Any certificate is accepted. Anyone intercepting the connection can read the PIN and call data." = "Jedes Zertifikat wird akzeptiert. Wer sich in die Verbindung einschaltet, kann PIN und Anrufdaten mitlesen.";
+"The PBX presents a different certificate than the remembered one. This happens when the PBX got a new certificate – or when someone is intercepting the connection." = "Die Anlage zeigt ein anderes Zertifikat als das gemerkte. Das passiert, wenn die Anlage ein neues Zertifikat bekommen hat – oder wenn sich jemand in die Verbindung einschaltet.";
+"The PBX certificate is not trusted by this Mac." = "Das Zertifikat der Anlage ist für diesen Mac nicht vertrauenswürdig.";
+
+/* Settings: language */
+"Language" = "Sprache";
+"Same as system" = "Wie System";
+"Takes effect after a restart." = "Wird nach einem Neustart wirksam.";
+"Restart now" = "Jetzt neu starten";
+"Restart failed: %@" = "Neustart fehlgeschlagen: %@";
+
+/* PIN file */
+"The PIN file is damaged or unreadable (%@). Please delete it and save again." = "Die PIN-Datei ist beschädigt oder nicht lesbar (%@). Bitte löschen und erneut speichern.";
+"PIN could not be saved: %@" = "PIN konnte nicht gespeichert werden: %@";
+
+/* Errors from the PBX connection (OxoKit) */
+"%@ failed: %lld %@" = "%1$@ fehlgeschlagen: %2$lld %3$@";
+"Session invalid (expired or taken over by another client)" = "Sitzung ungültig (abgelaufen oder von einem anderen Client übernommen)";
+"%@ is not supported by the PBX" = "%@ wird von der Anlage nicht unterstützt";
+"Not logged in" = "Nicht angemeldet";
+"SOAP fault: %@" = "SOAP-Fehler: %@";
+"Invalid response from the PBX: %@" = "Ungültige Antwort der Anlage: %@";
+"Connection failed: %@" = "Verbindung fehlgeschlagen: %@";

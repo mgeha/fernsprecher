@@ -1,0 +1,47 @@
+# SwiftPM / build output
+.build/
+build/
+.swiftpm/
+*.dmg
+
+# Xcode (in case the package is ever opened in Xcode)
+xcuserdata/
+DerivedData/
+
+# Signing material and local credentials
+*.p12
+*.pem
+*.key
+*.cer
+.oxoctl-pin
+
+# macOS
+.DS_Store
+._*
+
+# Raw captures from `oxoctl monitor --raw` (contain real phone numbers)
+events*.xml
+
+# AI coding assistants: instructions, settings and session data
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.mcp.json
+AGENTS.md
+.codex/
+GEMINI.md
+.gemini/
+.cursor/
+.cursorrules
+.cursorignore
+.github/copilot-instructions.md
+.aider*
+.windsurf/
+.windsurfrules
+.cline/
+.clinerules
+.continue/
+.junie/
+
+# Private files that stay on this machine
+local/

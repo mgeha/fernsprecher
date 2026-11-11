@@ -166,6 +166,12 @@
 "The PBX presents a different certificate than the remembered one. This happens when the PBX got a new certificate – or when someone is intercepting the connection." = "Die Anlage zeigt ein anderes Zertifikat als das gemerkte. Das passiert, wenn die Anlage ein neues Zertifikat bekommen hat – oder wenn sich jemand in die Verbindung einschaltet.";
 "The PBX certificate is not trusted by this Mac." = "Das Zertifikat der Anlage ist für diesen Mac nicht vertrauenswürdig.";
 
+/* Settings: login item */
+"Open at login" = "Bei der Anmeldung öffnen";
+"Needs to be allowed in System Settings." = "Muss in den Systemeinstellungen erlaubt werden.";
+"Open System Settings" = "Systemeinstellungen öffnen";
+"Could not change login item: %@" = "Anmeldeobjekt konnte nicht geändert werden: %@";
+
 /* Settings: language */
 "Language" = "Sprache";
 "Same as system" = "Wie System";

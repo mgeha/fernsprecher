@@ -83,6 +83,7 @@ struct GeneralSettings: View {
                     Typed numbers are dialled as entered.
                     """)
             }
+            LoginItemSection()
             languageSection
         }
     }

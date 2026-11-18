@@ -20,7 +20,8 @@ final class ConnectionAlerts: NSObject, UNUserNotificationCenterDelegate {
         center = Bundle.main.bundleIdentifier == nil ? nil : .current()
         super.init()
         center?.delegate = self
-        center?.requestAuthorization(options: [.alert, .sound]) { _, _ in }
+        // Called on the center's queue; without @Sendable it inherits main-actor isolation and traps.
+        center?.requestAuthorization(options: [.alert, .sound]) { @Sendable _, _ in }
     }
 
     func update(_ state: ConnectionState, line: String) {
